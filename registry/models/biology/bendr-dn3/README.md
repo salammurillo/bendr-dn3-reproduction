@@ -23,7 +23,7 @@ in dn3/dn3/configuratron/config.py, the arguments passed to the function are cor
 
 in dn3/examples/basics.ipynb, the workflow code is also corrected to fix simple TypeErrors
 
-The corrected files are all provided
+The corrected files are all provided in this folder, replace the files in the above mentioned paths with these sharing the same name.
 
 ## ICE Setup
 
@@ -158,7 +158,7 @@ https://gatech.service-now.com/home?id=kb_article_view&sysparm_article=KB0041890
 The basics notebook contains the workflow to run the model training and inference.
 
 The configuration to run the training and inference off the PhysioNet dataset is provided in
-[`my_config.yml`](dn3/examples/my_config.yml).
+[`my_config.yml`](./my_config.yml).
 
 Put the path to the dataset in this configuraiton file where it says toplevel
 
@@ -175,7 +175,7 @@ The results of the predictions and validation checks are present in the exported
 The example runs tests, over all five folds, and per participant.
 
 The accuracy and full results are output in the notebook, and a successful execution was exported and stored at
-[`basics.html`](dn3/examples/basics.html).
+[`basics.html`](./basics.html).
 
 ## Model an Weights
 
